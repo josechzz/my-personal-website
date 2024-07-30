@@ -3,11 +3,29 @@
 :root{
     --primary-color : #180161;
     --secondary-color : #4F1787;
+    --white: #fff;
 
     --primary-font: "Poppins", sans-serif;
 
 }
 
-h1{
-    color: var(--primary-color);
+
+
+/* resetear los stilos del navegador
+ */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    align-items: center;
+}
+.navbar-tittle{
+ color: var(--white);
+}
+
